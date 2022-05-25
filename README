@@ -5,41 +5,16 @@
 /
 / Capstone: Analyzing (Social) Network Data
 / https://www.coursera.org/learn/intermediate-programming-capstone
-/
-/ Authored by UCSD MOOC Team:
-/ Mia Minnes, Christine Alvarado, Leo Porter, Alec Brickner
-/ and Adam Setters
-/
-/ Date: 3/21/2016
+
 /-------------------------------------------------------------------------
 
 ---------------------------------------------------------[ DESCRIPTION ]--
 
-The files provided are skeleton code, as well as grading previews and 
-testing files to be used in completing the course programming 
-assignments. No code will be provided for the capstone project.
+The files above are the capstone project required in order to complete the
+series of UCSD programming courses. 
 
----------------------------------------------------------------[ FILES ]--
-
-Below are the files provided for the warm-up assignment in week 1:
-
-graph.Graph.java
-graph.CapGraph.java
-util.GraphLoader.java
-graph.grader.Grader.java
-graph.grader.EgoGrader.java
-graph.grader.SCCGrader.java
-
-Data files and information about them can be found in the 
-data/ directory.
-
----------------------------------------------------------------[ SETUP ]-- 
-
-Importing Project into eclipse:
-	1. Create a new Java Project in your workspace
-	2. Import the starter files:
-	  File -> Import -> Select "File System" -> Next -> Browse and set 
-	  root directory to folder contents of zip were extracted to -> Finish
-
-Feel free to use another IDE or manually compile and run your programs.
-If you need help, Google is your friend.
+The project analyzes social network data provided as part of the course. 
+Solutions include, recommending new friends, finding strongly connected components,
+extracting egonets, finding a minimum dominating set... the GraphLoader class is 
+provided by the course and the rest of the work is entirelly by me. Solutions are
+located in the src folder. 
